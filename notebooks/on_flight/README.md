@@ -28,15 +28,15 @@ The script makes liberal use of the "goes.py" set of functions that I shamelessl
 
 All figures plotted with the flight plan on top
 
-- Forecast column water vapour for the time closest to now 	(parent/Figures/TCW_forecast)
-- Latest GOES East visible satelite image 			(parent/Figures/VIS)
-- Latest GOES East TPW 						(parent/Figures/VIS_and_TPW)
-- Latest GOES East visible with Goes TPW estimate overlayed 	(parent/Figures/VIS_and_TPW)
-- Latest GOES East visible with ASMRU estimate of TPW from last night (parent/Figures/VIS_and_TPW)
-- Latest multisatellite MIMIC of TPW (parent/Figures/VIS_and_TPW)
-- Latest GOES East Clean IR channel				(parent/Figures/IR)
-- Latest GOES East estimate of Aerosol optical depth		(parent/Figures/AOD)
-- Latest GOES East "water vapor" image 				(parent/Figures/WV)
+- Forecast column water vapour for the time closest to now 	(	Figures/TCW_forecast)
+- Latest GOES East visible satelite image 				(Figures/VIS)
+- Latest GOES East TPW 							(Figures/TPW)
+- Latest GOES East visible with Goes TPW estimate overlayed 		(Figures/VIS_and_TPW)
+- Latest GOES East visible with ASMRU estimate of TPW from last night 	(Figures/VIS_and_TPW)
+- Latest multisatellite MIMIC of TPW 					(Figures/TPW)
+- Latest GOES East Clean IR channel					(Figures/IR)
+- Latest GOES East estimate of Aerosol optical depth			(Figures/AOD)
+- Latest GOES East "water vapor" image 					(Figures/WV)
 
 The last figure takes about 10 minutes to download the data for. All other figures should be created in about 1-2 minutes.
 

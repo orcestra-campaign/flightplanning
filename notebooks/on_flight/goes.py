@@ -15,7 +15,7 @@ import cartopy.feature as cfeature
 
 API_DATE_FORMAT = "%Y-%m-%dT%H:%M:%SZ"
 TIME_ROUND_FREQUENCY = "10min"
-TIME_LAG = "1h"
+TIME_LAG = "30min"
 
 PRODUCT_NAME = {
     "infrared": "GOES-East_ABI_Band13_Clean_Infrared",

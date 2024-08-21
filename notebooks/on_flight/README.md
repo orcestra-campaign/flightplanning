@@ -17,11 +17,9 @@ The script makes liberal use of the "goes.py" set of functions that I shamelessl
 
 2) Download the flight plan from https://orcestra-campaign.org/operation/halo.html. Copy the first code cell (between the definition of "radius" to the defintion of "path" 
 
-3) Running the iPython notebook will download various data and save figures to directories detailed below
+3) Running the iPython notebook will download various data and save figures to directories detailed below. Figures with the suffix 'planet' are small enough to send to the aircraft crew.
 
-4) To send a figure to the flight crew, open it in preview (Mac) and export it to jpeg with the quality set such that the size is smaller than 200 kB.
-
-5) Run as needed during the flight. If an error occurs or the figure is blank, it is most likely that the satellite data could not be found. Try again. If the error persists, try changing the time you request to earlier using "timedelta" (see code block 2).
+4) Run as needed during the flight. If an error occurs or the figure is blank, it is most likely that the satellite data could not be found. Try again. If the error persists, try changing the time you request to earlier using "timedelta" (see code block 2).
 
 
 ### Figures created

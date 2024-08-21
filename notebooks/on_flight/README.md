@@ -11,7 +11,7 @@ The script makes liberal use of the "goes.py" set of functions that I shamelessl
 
 ### Usage
 
-0) Copy the file HALO-flightID.ipynb to another file, replacing "flightID" with the actual flight ID.
+0) Copy the latest HALO-flightID.ipynb to another file, replacing "flightID" with the actual flight ID.
 
 1) Set the flight takeoff time and forecast initialisation time in the second code block of the iphython notebook.
 
@@ -69,24 +69,23 @@ The script requires the orcestra package:
 https://pypi.org/project/orcestra/
 
 
-All of the rest are standard packages also installable by pip
+The following packages are installed as dependencies for orcestra
 
-- datetime		
 - intake		
-- os	 		
-- goes2go			
 - matplotlib		
 - cartopy		
-- xarray		
 - pandas		
+- xarray		
 - numpy			
-- seaborn		
 - requests	
-- rioxarray	
-- urllib2
-- PIL
-- requests
-- io
+
+These packages can be installed via pip
+
+- goes2go:			
+	Library for accessing near real-time GOES data
+
+- PIL:
+	Standard python image library
 
 
 

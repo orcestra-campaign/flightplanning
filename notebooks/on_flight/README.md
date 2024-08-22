@@ -11,24 +11,23 @@ The script makes liberal use of the "goes.py" set of functions that I shamelessl
 
 ### Usage
 
-0) Copy the file HALO-flightID.ipynb to another file, replacing "flightID" with the actual flight ID.
+0) Copy the latest HALO-flightID.ipynb to another file, replacing "flightID" with the actual flight ID.
 
 1) Set the flight takeoff time and forecast initialisation time in the second code block of the iphython notebook.
 
 2) Download the flight plan from https://orcestra-campaign.org/operation/halo.html. Copy the first code cell (between the definition of "radius" to the defintion of "path" 
 
-3) Running the iPython notebook will download various data and save figures to directories detailed below
+3) Running the iPython notebook will download various data and save figures to directories detailed below. Figures with the suffix 'planet' are small enough to send to the aircraft crew.
 
-4) To send a figure to the flight crew, open it in preview (Mac) and export it to jpeg with the quality set such that the size is smaller than 200 kB.
-
-5) Run as needed during the flight. If an error occurs or the figure is blank, it is most likely that the satellite data could not be found. Try again. If the error persists, try changing the time you request to earlier using "timedelta" (see code block 2).
+4) Run as needed during the flight. If an error occurs or the figure is blank, it is most likely that the satellite data could not be found. Try again. If the error persists, try changing the time you request to earlier using "timedelta" (see code block 2).
 
 
 ### Figures created
 
 All figures plotted with the flight plan on top
 
-- Forecast column water vapour for the time closest to now 	(	Figures/TCW_forecast)
+- Forecast column water vapour for the time closest to now 		(Figures/TCW_forecast)
+- Satellite images (IR and VIS) that can be overlaid onto Planet	(Figures/Planet)
 - Latest GOES East visible satelite image 				(Figures/VIS)
 - Latest GOES East TPW 							(Figures/TPW)
 - Latest GOES East visible with Goes TPW estimate overlayed 		(Figures/VIS_and_TPW)
@@ -37,6 +36,7 @@ All figures plotted with the flight plan on top
 - Latest GOES East Clean IR channel					(Figures/IR)
 - Latest GOES East estimate of Aerosol optical depth			(Figures/AOD)
 - Latest GOES East "water vapor" image 					(Figures/WV)
+
 
 The last figure takes about 10 minutes to download the data for. All other figures should be created in about 1-2 minutes.
 
@@ -57,7 +57,8 @@ The last figure takes about 10 minutes to download the data for. All other figur
                       | --- TPW			
                       | --- VIS			
                       | --- VIS_and_TPW		
-                      | --- WV			
+                      | --- WV
+		      | --- Planet			
 
 ```
 
@@ -69,24 +70,23 @@ The script requires the orcestra package:
 https://pypi.org/project/orcestra/
 
 
-All of the rest are standard packages also installable by pip
+The following packages are installed as dependencies for orcestra
 
-- datetime		
 - intake		
-- os	 		
-- goes2go			
 - matplotlib		
 - cartopy		
-- xarray		
 - pandas		
+- xarray		
 - numpy			
-- seaborn		
 - requests	
-- rioxarray	
-- urllib2
-- PIL
-- requests
-- io
+
+These packages can be installed via pip
+
+- goes2go:			
+	Library for accessing near real-time GOES data
+
+- PIL:
+	Standard python image library
 
 
 

@@ -26,7 +26,8 @@ The script makes liberal use of the "goes.py" set of functions that I shamelessl
 
 All figures plotted with the flight plan on top
 
-- Forecast column water vapour for the time closest to now 	(	Figures/TCW_forecast)
+- Forecast column water vapour for the time closest to now 		(Figures/TCW_forecast)
+- Satellite images (IR and VIS) that can be overlaid onto Planet	(Figures/Planet)
 - Latest GOES East visible satelite image 				(Figures/VIS)
 - Latest GOES East TPW 							(Figures/TPW)
 - Latest GOES East visible with Goes TPW estimate overlayed 		(Figures/VIS_and_TPW)
@@ -35,6 +36,7 @@ All figures plotted with the flight plan on top
 - Latest GOES East Clean IR channel					(Figures/IR)
 - Latest GOES East estimate of Aerosol optical depth			(Figures/AOD)
 - Latest GOES East "water vapor" image 					(Figures/WV)
+
 
 The last figure takes about 10 minutes to download the data for. All other figures should be created in about 1-2 minutes.
 
@@ -55,7 +57,8 @@ The last figure takes about 10 minutes to download the data for. All other figur
                       | --- TPW			
                       | --- VIS			
                       | --- VIS_and_TPW		
-                      | --- WV			
+                      | --- WV
+		      | --- Planet			
 
 ```
 

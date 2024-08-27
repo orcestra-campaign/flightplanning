@@ -1,0 +1,65 @@
+Flight HALO-20240831a
+
+------------------------------------------------------------
+
+DM Format:
+1644N02257W 1644N02152W 0100N02451W 0400N02418W 0745N02336W 1130N02253W 1300N02236W 1400N02224W 1600N02201W 1400N02224W 1438N02217W 1644N02257W
+Extra waypoint: 0300N02429W
+Extra waypoint: 1835N02417W
+
+------------------------------------------------------------
+
+DMmm Format:
+N16 44.07, W022 56.64, SAL
+N16 44.07, W021 52.01, ec_north
+N01 00.00, W024 51.43, ec_south
+N04 00.00, W024 17.87, c_south
+N07 45.00, W023 35.67, c_mid
+N11 30.00, W022 52.97, c_north
+N13 00.00, W022 35.69, ec_under
+N14 00.00, W022 24.09, ec_shuttle_out
+N16 00.00, W022 00.68, ec_shuttle_in
+N14 00.00, W022 24.09, ec_shuttle_out
+N14 37.84, W022 16.74, c_atr
+N16 44.07, W022 56.64, SAL
+
+-- extra waypoints:
+N03 00.00, W024 29.06, Alternative center for c_south
+N18 34.88, W024 16.57, Alternative center for c_atr
+
+------------------------------------------------------------
+
+
+Detailed Overview:
+SAL          N16 44.07, W022 56.64, FL000, 12:20:00, 
+ec_north     N16 44.07, W021 52.01, FL410, 12:29:45, 
+ec_south     N01 00.00, W024 51.43, FL410, 14:35:41, 
+c_south_in   N02 49.07, W024 31.11, FL410, 14:50:13,  72 nm circle centered at N04 00.00, W024 17.87, enter from north, CCW
+c_mid_in     N06 34.09, W023 49.05, FL430, 16:19:23,  72 nm circle centered at N07 45.00, W023 35.67, enter from north, CCW
+c_north_in   N10 19.12, W023 06.55, FL430, 17:47:53,  72 nm circle centered at N11 30.00, W022 52.97, enter from south, CCW
+ec_under     N13 00.00, W022 35.69, FL430, 19:07:55, 
+ec_shuttle_out N14 00.00, W022 24.09, FL450, 19:15:49, 
+ec_shuttle_in N16 00.00, W022 00.68, FL450, 19:31:34, 
+ec_shuttle_out N14 00.00, W022 24.09, FL350, 19:47:42, 
+c_atr_in     N14 00.54, W022 23.99, FL350, 19:47:46,  38 nm circle centered at N15 47.59, W024 49.74, enter from west, CW
+SAL          N16 44.07, W022 56.64, FL000, 20:46:56, 
+
+ -- circle centers:
+c_south      N04 00.00, W024 17.87
+c_mid        N07 45.00, W023 35.67
+c_north      N11 30.00, W022 52.97
+c_atr        N14 37.84, W022 16.74
+
+ -- extra waypoints:
+xwp2         N03 00.00, W024 29.06, Alternative center for c_south
+xwp3         N18 34.88, W024 16.57, Alternative center for c_atr
+
+Crew:
+Mission PI             Silke Groß
+DropSondes             Theresa Mieslinger
+HAMP                   Jakob Deutloff
+SMART/VELOX            tbd
+SpecMACS               tbd
+WALES                  Julia Windmiller
+Flight Documentation   tbd
+Ground Support         tbd
